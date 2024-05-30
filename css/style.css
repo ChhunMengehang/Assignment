@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(255, 255, 255);
+  height: 100;
+}
+#form-login {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+#InputName {
+  margin: 5px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+}
+#InputPhone {
+  margin: 5px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  border: 1px solid gray;
+}
+#InputEmail {
+  margin: 5px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+}
+#btnform {
+  width: 240px;
+  height: 40px;
+  font-size: 16px;
+}
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}

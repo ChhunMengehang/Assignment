@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form action="" id="form-login" class="row justify-content-center">
+        <div class="col-10 col-md-8 mb-3">
+          <label for="InputName" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="InputName"
+            placeholder="Username"
+            required
+          />
+        </div>
+        <div class="col-10 col-md-8 mb-3">
+          <label for="InputPhone" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="InputPhone"
+            placeholder="Phone"
+            required
+          />
+        </div>
+        <div class="col-10 col-md-8 mb-3">
+          <label for="InputEmail" class="form-label"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="InputEmail"
+            placeholder="Messi10@gmail.com"
+            required
+          />
+        </div>
+        <button type="submit" id="btnform" class="btn btn-warning">save</button>
+      </form>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">No.</th>
+          <th scope="col">Name</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Email</th>
+          <th scope="col">Date</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>1</td>
+          <td>Menee heang</td>
+          <td>0123344</td>
+          <td>Mengheang77@gmail.com</td>
+          <td></td>
+          <td>
+            <a href="#" class="btn btn-info">Edit</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+          </td>
+        </tr> -->
+      </tbody>
+    </table>
+    <script src="js/script.js"></script>
+  </body>
+</html>
